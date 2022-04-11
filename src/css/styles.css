@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#key-bar {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem;
+    background-color: #00000022;
+    border: 2px solid #000;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: 0.07;
+}
+
+.key {
+    font-size: 2rem;
+}
+
+.element {
+    color: orangered;
+}
+
+.play, .key-button:hover {
+    transform: scale(1.1);
+    border-color: yellow;
+}
